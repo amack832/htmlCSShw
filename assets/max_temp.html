@@ -16,6 +16,8 @@
 </head>
 
 <body>
+
+<!--Setting up intial navbar with landing page button link.-->
 <nav class="navbar">
       <div class="container">
             <div class="navbar-header">
@@ -28,9 +30,8 @@
               <a class="navbar-brand" href="landing.html">Latitude</a>
             </div>
         
-            
-            <div class="navbar">
-              
+            <!--Setting up NavBar choices on right side of Nav with dropdown connected to specific visualizations-->
+            <div class="navbar">             
               <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
@@ -49,13 +50,17 @@
           </div>
         </nav>
 
+    
+<!-- Adding in the main figure for this page along with paragraph text. -->
 <div class="container">
 	<div class="row">  
 	   <div class="col-md-6">
       <h1>Max Temperature</h1>
 	    <img src="Images/Fig1.png" width="500px" height="400px">
 	    <p>As expected, the weather becomes significantly warmer as one approaches the equator. More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year was gathered</p>
-     </div>    
+     </div> 
+     
+      <!-- Visualizations links to other analysis pages.-->
 	   <div class="col-md-4 sidebar">
         <div class="row">
           <div class="col-md-12">
@@ -63,24 +68,20 @@
           </div>
         </div>
        <div class="row">
-
           <div class="col-md-3">    
 	           <a href="max_temp.html"><img src="Images/Fig1.png" width="200px" height="200px"></a>
           </div>
           <div class="col-md-3"></div>
-        
           <div class="col-md-3">  
 	           <a href="humidity.html"><img src="Images/Fig2.png" width="200px" height="200px"></a>
           </div>
           <div class="col-md-3"></div>  
        </div>   
        <div class ="row"> 
-          
           <div class="col-md-3">  
             <a href="cloud.html"><img src="Images/Fig3.png" width="200px" height="200px"></a>
           </div>
-          <div class="col-md-3"></div>
-          
+          <div class="col-md-3"></div> 
           <div class="col-md-3">     
             <a href="wind.html"><img src="Images/Fig4.png" width="200px" height="200px">
           </div>
