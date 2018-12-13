@@ -1,0 +1,17 @@
+.box {
+    height: 600px;
+    padding: 30px;
+    background:white;
+  }
+
+.navbar-brand {
+    height: 60px;
+    padding: 20px;
+    color: white;
+    background:rgb(22, 211, 167);
+  }
+
+h1 {
+color:rgb(22, 211, 167);
+
+}
